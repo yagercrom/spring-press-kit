@@ -1,0 +1,19 @@
+{
+  "name": "spring-press-kit",
+  "version": "1.0.0",
+  "description": "재단법인 교육의봄 보도자료 작성 도구. 기관 서식 그대로 HWPX 보도자료를 생성하고, 한글(HWPX) 문서 일반을 다루는 스킬을 함께 제공합니다.",
+  "author": {
+    "name": "재단법인 교육의봄"
+  },
+  "keywords": [
+    "hwpx",
+    "한글",
+    "보도자료",
+    "press-release",
+    "korean-document"
+  ],
+  "skills": [
+    "./skills/hwpx",
+    "./skills/spring_press_contents_maker_1.0"
+  ]
+}

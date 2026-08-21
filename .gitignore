@@ -1,0 +1,24 @@
+# Python bytecode -- regenerated on every run
+__pycache__/
+*.py[cod]
+
+# Build artifacts -- the ZIP is produced from this tree, not stored in it
+*.zip
+
+# Generated documents -- press releases belong wherever the author keeps them,
+# not in the tool repository
+*.hwpx
+!skills/hwpx/assets/*.hwpx
+!skills/spring_press_contents_maker_1.0/assets/*.hwpx
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# R / RStudio 세션 흔적
+.Rhistory
+.RData
+.Rproj.user/

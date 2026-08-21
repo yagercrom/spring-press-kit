@@ -1,0 +1,19 @@
+{
+  "name": "spring",
+  "owner": {
+    "name": "재단법인 교육의봄"
+  },
+  "metadata": {
+    "description": "재단법인 교육의봄 내부용 Claude Code 스킬 마켓플레이스. 보도자료 작성과 한글(HWPX) 문서 처리 도구를 제공합니다.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "spring-press-kit",
+      "source": "./",
+      "description": "보도자료를 기관 서식 그대로 HWPX로 생성하는 스킬 + 한글 문서 처리 스킬. 두 스킬은 함께 설치해야 동작합니다.",
+      "category": "productivity",
+      "keywords": ["hwpx", "한글", "보도자료", "press-release", "korean-document"]
+    }
+  ]
+}

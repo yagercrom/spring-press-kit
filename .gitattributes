@@ -1,0 +1,16 @@
+# HWPX is a ZIP archive. If Git ever treats it as text and rewrites line
+# endings, the archive is corrupted and every template in this repo becomes
+# unusable. Mark it binary explicitly rather than relying on autodetection.
+*.hwpx binary
+*.hwp  binary
+
+# PowerShell on Windows wants CRLF. It also needs the UTF-8 BOM that is already
+# in the file -- Windows PowerShell 5.1 otherwise reads the Korean text as ANSI
+# and the script fails to parse.
+*.ps1 text eol=crlf working-tree-encoding=UTF-8
+
+# Everything else stays LF in the repository so diffs are stable regardless of
+# who checked it out.
+*.py  text eol=lf
+*.md  text eol=lf
+*.json text eol=lf
